@@ -1,7 +1,7 @@
 {
-  "name": "list.js",
-  "version": "2.3.1",
-  "description": "The perfect library for lists. Supports search, sort, filters and flexibility. Built to be invisible and work on existing HTML",
+  "name": "encorecustomlisttest",
+  "version": "2.3.2",
+  "description": "Customized List.js library for encore global",
   "keywords": [
     "list",
     "search",
@@ -12,8 +12,8 @@
     "ui"
   ],
   "author": {
-    "name": "Jonny Strömberg",
-    "email": "jonny.stromberg@gmail.com",
+    "name": "Erik Thomas",
+    "email": "erik",
     "url": "https://javve.com"
   },
   "homepage": "https://listjs.com",
