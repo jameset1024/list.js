@@ -29,7 +29,7 @@ module.exports = function (list) {
         for (var i = 1; i <= pages; i++) {
             var className = currentPage === i ? 'active' : ''
 
-            console.log(i, left, right, currentPage, (currentPage - innerWindow), (currentPage + innerWindow), className);
+            //console.log(i, left, right, currentPage, (currentPage - innerWindow), (currentPage + innerWindow), className);
 
             item = pagingList.add({
                 page: i,
