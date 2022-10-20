@@ -84,7 +84,7 @@ module.exports = function (list) {
         })
 
         events.bind(pagingList.listContainer, 'click', function (e) {
-            e.preventDefault();
+            if ( e.target.classList.contains('page') ) e.preventDefault();
 
             var target = e.target || e.srcElement,
                 page = list.utils.getAttribute(target, 'data-page'),
